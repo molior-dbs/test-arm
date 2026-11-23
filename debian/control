@@ -1,0 +1,12 @@
+Source: armpackage
+Section: misc
+Priority: optional
+Maintainer: Molior Test <test@molior.info>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.2
+
+Package: armpackage
+Section: misc
+Architecture: any
+Depends: ${misc:Depends}
+Description: Test package
